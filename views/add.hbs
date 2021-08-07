@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="text-center login-title my-5">Add Student</h1>
+    <form action="/add" method="POST">
+
+        <label>Name</label>
+        <div class="col-sm-10">
+            <input type="string" class="form-control" value="" name="name" /> 
+        </div>
+
+        <label>Date of Birth</label>
+        <div class="col-sm-10">
+            <input type="date" name="date" class="form-control"  value="" /> 
+        </div>
+
+        <label>school</label>
+        <div class="col-sm-10">
+            <input type="string" name="school" class="form-control"  value="" /> 
+        </div>
+
+        <label>class</label>
+        <div class="col-sm-10">
+            <input type="string" name="class" class="form-control"  value="" /> 
+        </div>
+
+        <label>Division</label>
+        <div class="col-sm-10">
+            <input type="string" name="division" class="form-control"  value="" /> 
+        </div>
+
+        <label>status</label>
+    
+        <div class="col-sm-10">
+            <input class="form-control" type="radio" name="status" id="gridRadios1" value="option1" checked>
+            <label> Active </label>
+        </div>
+            
+        <div class="col-sm-10">
+            <input class="form-check-input" type="radio" name="status" id="gridRadios2" value="option2">
+            <label> inactive </label>
+        </div>
+
+        <input type="submit" class="btnRegister" value="sumbit" />       
+
+    </form>
+
+</body>
+</html>
